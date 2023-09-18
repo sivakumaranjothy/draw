@@ -1,0 +1,49 @@
+body{
+background-color: rgb(158, 247, 158);
+}
+
+#score{
+    font-size:50px;
+    float:left;
+    margin-left:150px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color:green;
+}
+
+#timer{
+font-size:50px;
+float:right;
+margin-right:150px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:green;
+
+}
+
+#show_sketch{
+   float:right;
+}
+
+h1{
+    margin-right:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkgreen;
+    font-size:50px;
+}
+
+#label{
+    color:darkolivegreen;
+    font-family:fantasy;
+    font-size:25px;
+
+}
+button{
+    background-color:darkolivegreen;
+}
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:example;
+    animation-duration:4s;
+    margin-top:50px;
+    animation-iteration-count:infinite;
+}
